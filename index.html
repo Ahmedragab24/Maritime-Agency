@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+
+    <!-- ===================================  FAVICON  ================================== -->
+    <link rel="shortcut icon" href="./assest/img/favicon.png" type="image/x-icon">
+
+    <!-- ===================================  REMIX ICONS  ================================== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- ===================================  Font awesome  ================================== -->
+    <script src="https://kit.fontawesome.com/e29ee4bc00.js" crossorigin="anonymous"></script>
+
+    <!-- =================================== Bootstrap CSS ====================================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+
+    <!-- ===================================  SWIPER CSS  ================================== -->
+    <link rel="stylesheet" href="./assest/css/swiper-bundle.min.css">
+
+    <!-- ===================================  css  ================================== -->
+    <link rel="stylesheet" href="./assest/css/style.css">
+    
+</head>
+<body>
+
+    <!-- ===================================  HEHEADER   ================================== -->
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <a href="#home"><img src="./assest/img/Logo Edite.png" alt="" class="nav__logo-img"></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item dropdown">
+                        <a href="#about" class="nav__link-but dropdown-toggle" role="button" data-bs-toggle="dropdown">About Us</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item "><a class="nav__link" href="#">The Company</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="#">Our Group</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="#">Chairman Message</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="#">Mission</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="#">Vision</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="#">Affiliations</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="#">Customers Benefits</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link">Services</a>
+                        <!-- <ul class="dropdown-menu">
+                            <li class="dropdown-item "><a class="nav__link" href="#">Marine services</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="#">Ship Chandlers</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="#">Chartering & Brokerage</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="#">Customs Clearance</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="#">Warehousing & Transportation</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="#">Ship Agency & Supplies</a></li>
+                        </ul> -->
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">Our Offices</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">News</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">Job</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="./contact.html" class="nav__link">Contact</a>
+                    </li>
+
+                    <li class="nav__item dropdown">
+                        <a href="#" class="nav__link-but dropdown-toggle" role="button" data-bs-toggle="dropdown">Language</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item "><a class="nav__link" href="#">English</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="#">Arabic</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="nav__dark">
+                    <!-- Theme change button -->
+                    <span class="change-theme-name">Dark mode</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <!-- <img src="./assest/img/home1.jpg" alt="" class="home__img"> -->
+            <video   autoPlay loop muted>
+                <source src="./assest/Video/1.mp4" type="video/mp4"/>
+            </video>
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__data-subtitle">Welcome To Sea Power Co <i class="ri-ship-2-fill"></i></span>
+                    <h1 class="home__data-title">Maritime agencies</h1>
+                    <span class="home__data-subtitle-2">Sea Power is the leading logistics provider in the <br> kingdom offering its best Ocean Freight services <br> to their valued customers.</span>
+                    <a href="#popular" class="button">Services</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://api.whatsapp.com/send?phone=+966 559635215&text=Hello, more information!" target="_blank" class="home__social-link">
+                        <i class="ri-whatsapp-fill"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/sea-power-co/" target="_blank" class="home__social-link">
+                        <i class="ri-linkedin-fill"></i>
+                    </a>
+                    <a href="https://twitter.com/SeaPowerCo1" target="_blank" class="home__social-link">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                </div>
+
+                <div class="home__info">
+                    <div>
+                        <span class="home__info-title">Ship Chandlers</span>
+                        <a href="" class="button button--flex button--link home__info-button">
+                            Provides Ship Supply Services for All Ships Under Our Agency 
+                        </a>
+                    </div>
+
+                    <div class="home__info-overlay">
+                        <img src="./assest/img/Logo Edite.png" alt="" class="home__info-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">More Information <br> About Sea Power Company</h2>
+                    <p class="about__description">In Any Organization, Logistics Is One Of The Most Important Department. We Treat Our Clients Like A Person And Offers Wealth Of Knowledge Which Can Benefit Their Supply Chain. If You Need To Call Us And Any Time Of The Day Or Night, We Are Always Available At Your Disposal. Our Non-Stop Services Are Trustworthy.   
+                    </p>
+                    <a href="#" class="button">Reserve a place</a>
+                </div>
+
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="./assest/img/about1.png" alt="" class="about__img-one">
+                    </div>
+
+                    <div class="about__img-overlay">
+                        <img src="./assest/img/about2.png" alt="" class="about__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!--==================== Services ====================-->
+         <section class="popular section" id="popular">
+            <h2 class="section__title">
+                Choose Your Services <br> Of The Sea power
+            </h2>
+            
+            <div class="popular__container container swiper row">
+                <div class="swiper-wrapper">
+                    <!-- article #1 -->
+                    <article class="popular__card swiper-slide box">
+                        <h1 class="popular__title">services</h1>
+                        <h3 class="popular__subtitle">Marine services</h3>
+
+                        <img src="./assest/img/Services/1.jpg" alt="Services" class="popular__img" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
+
+                        <div class="popular__data">
+                           <div class="popular__description">
+                            Every company uses logistics <br> and Sea Power provides <br> integrated logistics services...... 
+                           </div>
+                        </div>
+
+                        <h3 class="popular__price text-center" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">See More</h3>
+
+                        <button class="button popular__button" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
+                            <i class="fa-solid fa-anchor"></i>
+                        </button>
+                    </article>
+
+                    <!-- article #2 -->
+                    <article class="popular__card swiper-slide box">
+                        <h1 class="popular__title">services</h1>
+                        <h3 class="popular__subtitle">SHIP CHANDLER</h3>
+
+                        <img src="./assest/img/Services/2.png" alt="Services" class="popular__img" data-bs-toggle="modal" data-bs-target="#exampleModalToggle-2">
+
+                        <div class="popular__data">
+                            <div class="popular__description">
+                                Our ship-chandler service consists <br> in offering all types of items, <br>equipment and supplies for..... 
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price text-center" data-bs-toggle="modal" data-bs-target="#exampleModalToggle-2">See More</h3>
+
+                        <button class="button popular__button" data-bs-toggle="modal" data-bs-target="#exampleModalToggle-2">
+                            <i class="fa-solid fa-anchor"></i>
+                        </button>
+                    </article>
+
+                    <!-- article #3 -->
+                    <article class="popular__card swiper-slide box">
+                        <h1 class="popular__title">services</h1>
+                        <h3 class="popular__subtitle">Chartering & Brokerage</h3>
+
+                        <img src="./assest/img/Services/3.png" alt="Services" class="popular__img" data-bs-toggle="modal" data-bs-target="#exampleModalToggle-3">
+
+                        <div class="popular__data">
+                            <div class="popular__description">
+                                Sea Power Marine Services <br> has a vast experience <br> in Chartering and Brokerage..... 
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price text-center" data-bs-toggle="modal" data-bs-target="#exampleModalToggle-3">See More</h3>
+
+                        <button class="button popular__button" data-bs-toggle="modal" data-bs-target="#exampleModalToggle-3">
+                            <i class="fa-solid fa-anchor"></i>
+                        </button>
+                    </article>
+
+                    <!-- article #4 -->
+                    <article class="popular__card swiper-slide box">
+                        <h1 class="popular__title">services</h1>
+                        <h3 class="popular__subtitle">Customs Clearance</h3>
+
+                        <img src="./assest/img/Services/4.jpg" alt="Services" class="popular__img" data-bs-toggle="modal" data-bs-target="#exampleModalToggle-4">
+
+                        <div class="popular__data">
+                            <div class="popular__description">
+                                Sea Power enjoys the facility <br> of having in-house customs <br> clearance office which..... 
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price text-center" data-bs-toggle="modal" data-bs-target="#exampleModalToggle-4">See More</h3>
+
+                        <button class="button popular__button" data-bs-toggle="modal" data-bs-target="#exampleModalToggle-4">
+                            <i class="fa-solid fa-anchor"></i>
+                        </button>
+                    </article>
+
+                    <!-- article #5 -->
+                    <article class="popular__card swiper-slide box">
+                        <h1 class="popular__title">services</h1>
+                        <h3 class="popular__subtitle">Warehousing & Transportation</h3>
+
+                        <img src="./assest/img/Services/5.png" alt="Services" class="popular__img" data-bs-toggle="modal" data-bs-target="#exampleModalToggle-5">
+
+                        <div class="popular__data">
+                            <div class="popular__description">
+                                Sea Power Marine Services <br> has a vast experience <br> in Chartering and Brokerage..... 
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price text-center" data-bs-toggle="modal" data-bs-target="#exampleModalToggle-5">See More</h3>
+
+                        <button class="button popular__button" data-bs-toggle="modal" data-bs-target="#exampleModalToggle-5">
+                            <i class="fa-solid fa-anchor"></i>
+                        </button>
+                    </article>
+
+                    <!-- article #6 -->
+                    <article class="popular__card swiper-slide box">
+                        <h1 class="popular__title">services</h1>
+                        <h3 class="popular__subtitle">Ship Agency & Supplies</h3>
+
+                        <img src="./assest/img/Services/6.png" alt="Services" class="popular__img" data-bs-toggle="modal" data-bs-target="#exampleModalToggle-6">
+
+                        <div class="popular__data">
+                            <div class="popular__description">
+                                ea Power for Marine Services <br> offers agency services to  <br> various international clients...... 
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price text-center" data-bs-toggle="modal" data-bs-target="#exampleModalToggle-6">See More</h3>
+
+                        <button class="button popular__button" data-bs-toggle="modal" data-bs-target="#exampleModalToggle-6">
+                            <i class="fa-solid fa-anchor"></i>
+                        </button>
+                    </article>
+                </div>
+
+                <div class="swiper-pagination"></div>
+        </section>
+
+                    <!--==================== popular modal 1 =================== -->
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-xl modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel">Marine Services</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img class="model__img" src="./assest/img/Services/1.jpg" alt="Services">
+                              <p class="model__description">
+                                Every company uses logistics and Sea Power provides integrated logistics services. Our well experienced staff are dedicated and expert in innovative freight and logistics solutions.
+
+                                Sea Power is offering FCL / LCL services and regularly and handling almost all types of shipments including OOG, Hazardous, Fragile and perishable cargo. We provide our comprehensive superior services in FCL (Full Container Load) from all over the world that controls your cost and streamline the shipping procedures.
+                                
+                                For LCL (Less than Container Load), we have dedicated operations team who monitors and execute regular consolidation movement via our local agencies throughout the world. We are grateful to our overseas counterparts for their outstanding services and relationship.
+                                
+                                Shipments with any size, weight, volume and shape, we handle it! We are committed to deliver highly flexible services to all our valued clients.
+                             </p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <!--==================== popular modal 2 =================== -->
+                    <div class="modal fade" id="exampleModalToggle-2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-xl modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel">Ship Chandlers</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img class="model__img model_2" src="./assest/img/Services/model_2-1.jpg" alt="Services">
+                              <img class="model__img model_2" src="./assest/img/Services/model_2-2.jpg" alt="Services">
+                              <img class="model__img model_2" src="./assest/img/Services/model_2-3.jpg" alt="Services">
+                              <p class="model__description">
+                                SHIP CHANDLER <br>
+                                Our ship-chandler service consists in offering all types of items, equipment and supplies for vessels, as well as ensuring port logistics and storage services and assignments. At Sea Power we specialise in ensuring satisfaction – in a field in which we have a wealth of experience. We work with the best professionals and companies to provide any equipment that a vessel may need, whether in port or at sea. <br>
+                                Ship supplies and other services <br>
+                                We are, in a way, a supermarket for vessels – as well as a leading provider for vessels in any port or stopover. We provide food – dry or fresh – drinks, hygiene products, bed linen, uniforms and any other sailing equipment. <br>
+                                For this, we rely on the best professionals and provider companies in order to ensure this service 24 hours a day, 365 days a year. For any onboard needs, we’ll offer the solution with efficiency and agility – exactly where you need it. And always as quickly as possible. <br>
+                                As a result, we are the provider of choice for an increasing number of crews and vessels across the world. Our reliability, speed and efficiency is matched only by the quality of our products and the excellent conditions of our services. <br>
+                                When it comes to ship supplies or maritime assignments of any kind, Sea Power is always the leading option. We guarantee the solution you need.
+                             </p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <!--==================== popular modal 3 =================== -->
+                    <div class="modal fade" id="exampleModalToggle-3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-xl modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel">Chartering & Brokerage</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img class="model__img" src="./assest/img/Services/3.png" alt="Services">
+                              <p class="model__description">
+                                Sea Power Marine Services has a vast experience in Chartering and Brokerage of all kinds of cargo and vessels includes break-bulk, bulk & bagged grain, raw material, timber, pipes, steel coils, bars, beams, vehicles, project, hazmat and governmental & non-commercial cargo. We are appointed and listed agents for SABIC, Ma’aden and its affiliates and many of the timber, steel manufacturers and bulk grain traders in Saudi Arabia. We are also running regular Red Sea tramper service to cater the needs of its regular steel and project shipment clients in the region. For the record, our company is handling about 4million tons of steel & bulk shipments yearly.
+                             </p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <!--==================== popular modal 4 =================== -->
+                    <div class="modal fade" id="exampleModalToggle-4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-xl modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel">Customs Clearance</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img class="model__img" src="./assest/img/Services/4.jpg" alt="Services">
+                              <p class="model__description">
+                                WE BUILT RELEATION WITH OUR CLIENTS TO THE HIGHER LEVEL <br>
+                                Sea Power enjoys the facility of having in-house customs clearance office which is another service which distinguish us from other freight forwarders particularly in KSA. It’s an honor for our group that BAHAKIM FOR TRANSPORTATION & CUSTOMS CLEARANCE has named the first customs approved broker at King Abdullah Port and it’s a privilege for the company that its one of the consultants to Port Development Company and have a big role in establishing the customs operations at King Abdullah Port. We clear all types of permitted cargo as export, import, or as transshipment in the sea port, airport and all Saudi land borders customs. We possess much knowledge in trading, fostered by many years of experience. We save time and energy through integrated services that match user needs, and offer optimum distribution to international businesses.
+                             </p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <!--==================== popular modal 5 =================== -->
+                    <div class="modal fade" id="exampleModalToggle-5" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-xl modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel">Warehousing & Transportation</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img class="model__img" src="./assest/img/Services/5.png" alt="Services">
+                              <p class="model__description">
+                                To render the best value added services to our clients either for exports or import shipments, we have fully equipped warehouse built over the area of 10000sqm and backed by 38 flatbed trailers and these numbers are growing with frequent increase in demand. Our warehouse is fully guarded and monitored 24/7 by CCTV cameras and suitable for dry, reefer containers, steel and break bulk shipments. There is separate covered area available for dust free warehousing and suitable for packing personal & commercial shipments. Temperature controlled warehouse is under construction and will be ready by mid of 2016 to support storage of temperature controlled shipments.<br>
+                                
+                                Our trailers are well maintained under agency contract and installed with GPS tracking devices which provide our customer service team and transport dept. with real time information about the shipments and its location. Our trailers are suitable and strengthen for both containers and break bulk shipments.
+                                <h4 class="mb-4">Detailed Services in Transportation & Warehousing</h4>
+                                <ul class="list__model">
+                                    <li class="item__model">10000sqm of warehouse area</li>
+                                    <li class="item__model">Short / long term storage</li>
+                                    <li class="item__model">Tailored services for customer</li>
+                                    <li class="item__model">Packing & palletizing</li>
+                                    <li class="item__model">Personal effects Pick n' Pack</li>
+                                    <li class="item__model">Stuffing & Lashing</li>
+                                    <li class="item__model">Inventory management services</li>
+                                    <li class="item__model">Scheduled pickup & deliveries</li>
+                                    <li class="item__model">Truck load & LTL</li>
+                                    <li class="item__model">Special order handling</li>
+                                    <li class="item__model">Supply of order</li>
+                                    <li class="item__model">Return shipment management</li>
+                                </ul>
+                             </p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <!--==================== popular modal 6 =================== -->
+                    <div class="modal fade" id="exampleModalToggle-6" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-xl modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel">Ship Agency & Supplies</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img class="model__img" src="./assest/img/Services/6.png" alt="Services">
+                              <p class="model__description">
+                                Sea Power for Marine Services offers agency services to various international clients. We are fully capable and equipped to handle all types of vessels at all ports in KSA, UAE, India, China, Egypt and Sudan. What makes us distinguished from other shipping company is the provision of matchless range of shipping services. <br>
+                                In order to provide full range of agency services, we are also the suppliers of provisions. We are providing all kind of supplies as bonded stores, spare parts, deck, engine stores and technical supplies. In addition, we deliver fresh food supplies with NO WASTE assurance and high quality standards around the year at very competitive rates. We are the marine store at all KSA ports. <br>
+                                <h5 class="mb-4">Under one roof our ship owners, managers, operators and charters enjoys following services:</h5>
+                                <ul class="list__model list-2">
+                                    <li class="item__model">Ship Handling</li>
+                                    <li class="item__model">Equipment Hire</li>
+                                    <li class="item__model">Crew Change</li>
+                                    <li class="item__model">Bunkers</li>
+                                    <li class="item__model">Husbandry Service</li>
+                                    <li class="item__model">Liner Representation</li>
+                                    <li class="item__model">Hub Agency</li>
+                                    <li class="item__model">Stevedoring & Tallying</li>
+                                    <li class="item__model">Tramp / Tanker Service</li>
+                                </ul>
+                             </p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                      
+        <!--==================== EXPERIENCE ====================-->
+        <section class="experience section container">
+            <h2 class="section__title">With Our Experience <br> We Will Serve You</h2>
+
+            <div class="experience__container container grid">
+                <div class="experience__content grid">
+                    <div class="experience__data">
+                        <h2 class="experience__number">20</h2>
+                        <span class="experience__description">Year<br>Experience</span>
+                    </div>
+
+                    <div class="experience__data">
+                        <h2 class="experience__number">745+</h2>
+                        <span class="experience__description">Complete<br>tours</span>
+                    </div>
+
+                    <div class="experience__data">
+                        <h2 class="experience__number">650+</h2>
+                        <span class="experience__description">Shipments <br> & Goods</span>
+                    </div>
+                </div>
+
+                <div class="experience__img grid">
+                    <div class="experience__overlay">
+                        <img src="./assest/img/experience1.png" alt="" class="experience__img-one">
+                    </div>
+                    
+                    <div class="experience__overlay">
+                        <img src="./assest/img/experience2.jpg" alt="" class="experience__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== VIDEO ====================-->
+        <section class="video section container">
+            <h2 class="section__title">Video Tour</h2>
+
+            <div class="video__container container">
+                <p class="video__description">Find out more with our video, showing how to ship through our ports.
+                </p>
+
+                <div class="video__content">
+                    <video id="video-file">
+                        <source src="./assest/Video/experience.mp4" type="video/mp4">
+                    </video>
+
+                    <button class="button button--flex video__button" id="video-button">
+                        <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Offer ====================-->
+        <section class="offer section">
+            <div class="offer__container container grid">
+                <img src="./assest/img/map-cover1.jpg" alt="" class="offer__bg">
+
+                <div class="offer__data">
+                    <h3 class="offer__title">
+                        Benefits for using our services
+                    </h3>
+
+                    <ul class="offer__description">
+                        <li>Providing best Customer Service.</li>
+                        <li>Access anytime, we are 24/7 on.</li>
+                        <li>No weight or size restrictions for your shipments.</li>
+                        <li>Choose the speed that suites the need.</li>
+                        <li>Delivery and pick up services can be planned and optimized.</li>
+                        <li>Pre-defined and reliable transit times support the planning.</li>
+                        <li>The transit time is counted in calendar days not in working days.</li>
+                        <li>The business is secured even in peak seasons.</li>
+                        <li>Able to fine win-win opportunities by your support.</li>
+                    </ul>
+
+                    <a href="#" class="button">
+                        Subscribe Now
+                    </a>
+                </div>
+
+                <img src="./assest/img/map.png" alt="" class="offer__img">
+            </div>
+        </section>
+
+
+        <!--==================== Contact  ================== -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Us</h2>
+            <h2 class="section__title contact--location">International Economic Tower,P.O.BOX 23411 Jeddah 21426,Kingdom of Saudi Arabia</h2>
+            <div class="contact--container container grid">
+                <div class="contact--content contact-left">
+                    <h3 class="contact--title">call us now</h3>
+                    
+                    <div class="contact--info">
+                        <div class="contact--card">
+                            <i class="fa-solid fa-envelope contact--card-icon"></i>
+                            <h3 class="contact--card-title">Email</h3>
+                            <span class="contact--card-data"> info@seapower.com.sa</span>
+                            <a href="mailto: info@seapower.com.sa@correo.com" target="noopener" class="contact--button">
+                                call now<i class="fa-solid fa-arrow-right contact--button-icon"></i>
+                            </a>
+                        </div>
+                        <div class="contact--card">
+                            <i class="ri-whatsapp-fill contact--card-icon"></i>
+                            <h3 class="contact--card-title">Whatsapp</h3>
+                            <span class="contact--card-data">+966-012-6486224</span>
+                            <a href="https://api.whatsapp.com/send?phone=+966 559635215&text=Hello, more information!" target="noopener" class="contact--button">
+                                call now<i class="fa-solid fa-arrow-right contact--button-icon"></i>
+                            </a>
+                        </div>
+                        <div class="contact--card">
+                            <i class="fa-solid fa-comment contact--card-icon"></i>
+                            <h3 class="contact--card-title">Fax</h3>
+                            <span class="contact--card-data">+966-012-2128718</span>
+                            <a href="https://login.wisefax.com/signup/?action=getfaxnumber" target="noopener" class="contact--button">
+                                call now<i class="fa-solid fa-arrow-right contact--button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact--content contact-right">
+                    <h3 class="contact--title">Write us your message</h3>
+                    <form action="" class="contact--form">
+                        <div class="contact--form-div">
+                            <label for="" class="contact--form-tag">Names</label>
+                            <input type="text" placeholder="Insert Your Name" class="contact--form-input">
+                        </div>
+                        <div class="contact--form-div">
+                            <label for="" class="contact--form-tag">Mail</label>
+                            <input type="email" placeholder="Insert Your Email" class="contact--form-input">
+                        </div>
+                        <div class="contact--form-div contact--form-area">
+                            <label for="" class="contact--form-tag">message</label>
+                            <textarea class="contact--form-input" placeholder="Write Your Project" name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <button class="button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SUBSCRIBE ====================-->
+        <section class="subscribe section">
+            <div class="subscribe__bg">
+                <div class="subscribe__container container">
+                    <div class="subscribe__img-h2">   
+                        <img src="./assest/img/Untitled design w w.png" alt="">
+                        <h2 class="section__title subscribe__title">Who are Sea power?</h2>
+                    </div>
+                    
+                    <p class="subscribe__description">
+                        Sea Power established in 2008 with over 2 decades of experience in shipping industry. Sea Power is managed by experienced Master Mariners, shipping & logistics industry’s leading professionals. Sea Power Marine Logistics emerged as one of the prominent shipping companies with extensive shipping operations at all industrial & commercial ports in Kingdom of Saudi Arabia. <br>
+                        Soon after laying a solid foundation in KSA, Sea Power Marine Services expend its offices and shipping partner’s network in Mediterranean, Europe and Red Sea. In Persian Gulf, company’s presence in heart of Business & Trade City Dubai ensures its reach to global projects and clients. <br>
+                        Recently the company has opened its own office in China and our presence in Far East was much appreciated by the giant shipping tycoons and this was an important growth for our company in that region to cater the needs of local customers and representing MENA region in China. The expansion is a mile stone achieved for the company’s vision of global presence and will continue to expend in all regions. <br>
+                        Sea Power is a diversified logistics company that takes Ocean / Air and Land transportation and delivery of clients to the next level with high speed services, simultaneously dealing in second primary logistics industries e.g. custom brokerage, supply chain solutions, project cargo, warehousing and fare & exhibition.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!--==================== SPONSORS ====================-->
+        <section class="sponsor section">
+            <h2 class="section__title">Affiliations</h2>
+            <div class="sponsor__container container grid">
+                <div class="sponsor__content">
+                    <a href="https://www.bimco.org/"><img src="./assest/img/Sponsors/1.png" alt="" class="sponsor__img"></a>
+                    <h5>Member Baltic and International Marine Council (BIMCO)</h5>
+                </div>
+                <div class="sponsor__content">
+                    <a href="https://fiata.org/"><img src="./assest/img/Sponsors/2.png" alt="" class="sponsor__img"></a>
+                    <h5>Member International Federation of Freight Forwarders Association (FIATA)</h5>
+                </div>
+                <div class="sponsor__content">
+                    <a href="https://www.jcci.org.sa/"><img src="./assest/img/Sponsors/3.png" alt="" class="sponsor__img"></a>
+                    <h5>Member Jeddah Chamber of Commerce & Industry (JCCI)</h5>
+                </div>
+                <div class="sponsor__content">
+                    <a href="https://pangea-network.com/"><img src="./assest/img/Sponsors/4.png" alt="" class="sponsor__img"></a>
+                    <h5>POWER CARGO CO Member PANGEA Freight Network</h5>
+                </div>
+                <div class="sponsor__content">
+                    <a href="https://ugsa.co/"><img src="./assest/img/Sponsors/5.png" alt="" class="sponsor__img"></a>
+                    <h5>Member United Gulf Shipping Agencies (UGSA)</h5>
+                </div>
+                <div class="sponsor__content">
+                    <a href="https://fsc.org.sa/?lang=en"><img src="./assest/img/Sponsors/6.png" alt="" class="sponsor__img"></a>
+                    <h5>Member of Council of Saudi Chambers</h5>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">Sea Power</h3>
+                    <p class="footer__description">You Are WELCOME To The Digital Logistics World.</p>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">About</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">About Us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Features</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">New & Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Company</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Team</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Plan y Pricing</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Become a member</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Support</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">FAQs</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Support Center</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; 2023 Sea Power. All rigths reserved.</p>
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                    <a href="#" class="footer__terms-link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+        
+   
+
+     <!--============================= SCROLL UP ====================================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+<!--=================================== SCROLL REVEAL=================================-->
+    <script src="./assest/Js/scrollreveal.min.js"></script>
+
+<!-- ===================================  SWIPER JS  ================================ -->
+    <script src="./assest/Js/swiper-bundle.min.js"></script>
+
+<!-- =================================== Bootstrap ==================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- ===================================  MAIN JS  ================================== -->
+<script src="./assest/Js/main.js"></script>
+    
+</body>
+</html>
