@@ -903,7 +903,7 @@ input {
 }
 
 .contact--card {
-  background: linear-gradient(170deg, hsl(205, 60%, 54%) 1% , var(--first-color-second) 100% );
+  background: linear-gradient(190deg, hsl(205, 60%, 54%) 1% , var(--first-color-second) 100% );
   box-shadow: 0 12px 16px hsla(0, 0%, 0%, 0.375);
   padding: 1rem;
   border-radius: .75rem;
@@ -1407,8 +1407,8 @@ input {
     width: 20px;
     height: 22px;
     right: 20px;
-    bottom: 8%;
   }
+
   .scrollup__icon {
      width: 4px; 
      height: 2px;
@@ -1416,6 +1416,10 @@ input {
     align-items: center;
     justify-content: center;
   }
+  .show-scroll {
+    bottom: 8%;
+  }
+  
 }
 
 /* For medium devices */
