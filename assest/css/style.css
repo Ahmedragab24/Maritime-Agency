@@ -398,7 +398,7 @@ input {
 }
 
 .home__info {
-  background-color: rgba(36, 80, 146, 0.813);
+  background-color: hsla(210, 40%, 44%, 0.661);
   display: flex;
   padding: 1.5rem 1rem;
   align-items: center;
@@ -560,7 +560,7 @@ input {
 
 .popular__card {
   position: relative;
-  width: 200px;
+  width: 250px;
   background: linear-gradient(180deg, var(--first-color-light) 1% , hsl(206, 99%, 29%) 100% );
   box-shadow: 0 12px 16px hsla(0, 0%, 0%, 0.375);
   padding: 2rem 1.5rem 1.5rem;
@@ -570,7 +570,7 @@ input {
 }
 
 .dark-theme .popular__card {
-  box-shadow: 0 0px 16px hsla(0, 0%, 100%, 0.146);
+  box-shadow: 0 0px 16px hsla(0, 0%, 52%, 0.146);
 }
 
 .popular__title,
@@ -1172,7 +1172,7 @@ input {
 /*========== SCROLL UP ==========*/
 .scrollup {
   position: fixed;
-  right: 4rem;
+  right: 3rem;
   bottom: -20%;
   background: linear-gradient(170deg, hsl(205, 60%, 54%) 1% , var(--first-color-alt) 100% );
   padding: .5rem;
@@ -1290,6 +1290,7 @@ input {
     font-size: var(--smaller-font-size);
     padding-bottom: 2rem;
   }
+  
 }
 
 @media screen and (max-width: 568px) {
@@ -1404,10 +1405,12 @@ input {
 
   .scrollup {
     width: 20px;
-    height: 20px;
+    height: 22px;
+    right: 20px;
+    bottom: 8%;
   }
   .scrollup__icon {
-     width: 5px; 
+     width: 4px; 
      height: 2px;
     display: flex;
     align-items: center;
@@ -1617,13 +1620,15 @@ input {
     margin-bottom: var(--mb-2);
   }
   .popular__container {
-    width: 610px;
+    width: 650px;
     margin-left: auto;
     margin-right: auto;
-  }
-  .popular__container {
     padding-top: 2rem;
   }
+  .popular__card {
+    width: 850px;
+  }
+
   .experience__overlay:nth-child(1) {
     width: 363px;
     margin-right: 4rem;
