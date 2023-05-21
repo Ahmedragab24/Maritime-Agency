@@ -132,7 +132,7 @@ window.addEventListener('scroll', scrollUp)
 const sr = ScrollReveal({
     distance: '60px',
     duration: 2800,
-    // reset: true,
+    reset: true,
 })
 
 
@@ -149,7 +149,7 @@ sr.reveal(`.section__title, .home__data, .home__social-link,
 sr.reveal(`.about__data, 
            .video__description, 
            .offer__data,
-           .contact--info,
+           .contact-left,
            .subscribe__description`,{
     origin: 'left',
 })
@@ -157,7 +157,7 @@ sr.reveal(`.about__data,
 sr.reveal(`.home__info, .about__img-overlay, 
            .video__content, .offer__img,
            .contact-right,
-           .subscribe__form`,{
+           .subscribe__img-h2`,{
     origin: 'right',
     interval: 100,
 })
