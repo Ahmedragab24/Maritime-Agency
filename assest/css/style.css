@@ -1241,6 +1241,8 @@ input {
   background-color: var(--text-color-light);
 }
 
+
+
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
 @media screen and (max-width: 357px) {
@@ -1321,6 +1323,9 @@ input {
   .dropdown-item {
     width: 100%;
   }
+ /* .nav__toggle i {
+    color: var(--first-color-alt);
+  } */
 
   .home video {
     object-position: 70%;

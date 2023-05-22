@@ -39,18 +39,18 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">Home</a>
+                        <a href="#home" class="nav__link" id="menu__home">Home</a>
                     </li>
                     <li class="nav__item dropdown">
                         <a href="#about" class="nav__link-but dropdown-toggle" role="button" data-bs-toggle="dropdown">About Us</a>
                         <ul class="dropdown-menu">
-                            <li class="dropdown-item "><a class="nav__link" href="#subscribe">The Company</a></li>
-                            <li class="dropdown-item "><a class="nav__link" href="./ourGroup.html">Our Group</a></li>
-                            <li class="dropdown-item "><a class="nav__link" href="./ChairmanMessage.html">Chairman Message</a></li>
-                            <li class="dropdown-item "><a class="nav__link" href="./mission.html">Mission</a></li>
-                            <li class="dropdown-item "><a class="nav__link" href="./vision.html">Vision</a></li>
-                            <li class="dropdown-item "><a class="nav__link" href="#sponsor">Affiliations</a></li>
-                            <li class="dropdown-item "><a class="nav__link" href="./CustomersBenefits.html">Customers Benefits</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="#subscribe" id="menu__company">The Company</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="./ourGroup.html" id="menu__ourGroup">Our Group</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="./ChairmanMessage.html" id="menu__chairman">Chairman Message</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="./mission.html" id="menu__mission">Mission</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="./vision.html" id="menu__vision">Vision</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="#sponsor" id="menu__affiliations">Affiliations</a></li>
+                            <li class="dropdown-item "><a class="nav__link" href="./CustomersBenefits.html" id="menu__customers">Customers Benefits</a></li>
                         </ul>
                     </li>
 
@@ -77,8 +77,8 @@
                     <li class="nav__item dropdown">
                         <a href="#" class="nav__link-but dropdown-toggle" role="button" data-bs-toggle="dropdown">Language</a>
                         <ul class="dropdown-menu">
-                            <li class="dropdown-item "><a class="nav__link" href="#">English</a></li>
-                            <li class="dropdown-item "><a class="nav__link" href="#">Arabic</a></li>
+                            <!-- <li class="dropdown-item "><a class="nav__link" href="#" id="en">English</a></li> -->
+                            <li class="dropdown-item "><a class="nav__link" href="#"  id="google_translate_element"></a></li>
                         </ul>
                     </li>
                 </ul>
@@ -726,6 +726,9 @@
 
 <!-- ===================================  SWIPER JS  ================================ -->
     <script src="./assest/Js/swiper-bundle.min.js"></script>
+
+<!-- ===================================  Translate  ================================ -->
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 <!-- =================================== Bootstrap ==================================== -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>

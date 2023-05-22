@@ -192,3 +192,13 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+
+
+
+// function googleTranslateElementInit() {
+//     new google.translate.TranslateElement({pageLanguage: '/en/ar', layout: google.translate.TranslateElement.InlineLayout.arabic},
+//      'google_translate_element');
+//      let showHeader = document.querySelector('.scroll-header');
+//      showHeader.style.height = '170px'
+//   }
+
