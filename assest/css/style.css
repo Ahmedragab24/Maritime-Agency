@@ -91,7 +91,7 @@ body.dark-theme {
   column-gap: 2rem;
   position: absolute;
   left: 3rem;
-  bottom: 4rem;
+  bottom: 1rem;
 }
 
 .change-theme, .change-theme-name {
@@ -119,7 +119,7 @@ html {
 }
 
 body {
-  margin: var(--header-height) 0 0 0;
+  /* margin: var(--header-height) 0 0 0; */
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
@@ -1271,7 +1271,7 @@ input {
 
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
-@media screen and (max-width: 357px) {
+@media screen and (max-width: 377px) {
   .home__container{
     row-gap: 1rem;
   }
