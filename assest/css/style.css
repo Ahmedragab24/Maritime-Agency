@@ -78,7 +78,7 @@ body.dark-theme {
   --title-color: hsl(210, 23%, 95%);
   --text-color: hsl(210, 8%, 75%);
   --input-color: hsl(215, 29%, 16%);
-  --body-color: hsl(218, 35%, 6%);
+  --body-color: hsl(218, 33%, 13%);
   --scroll-bar-color: hsl(217, 12%, 48%);
   --scroll-thumb-color: hsl(213, 12%, 36%);
     transition: 1s;
@@ -209,6 +209,10 @@ input {
 .header {
   background-color: var(--body-color);
   box-shadow: rgba(0, 52, 84, 0.298) 0px 2px 2px;
+}
+
+.dark-theme .header {
+  box-shadow: rgba(255, 255, 255, 0.175) 0px 2px 2px;
 }
 
 .nav {
@@ -1132,6 +1136,7 @@ input {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+  margin-top: 3rem;
 }
 
 .footer__container {
